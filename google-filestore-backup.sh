@@ -4,6 +4,8 @@
 
 apt install nfs-common -y
 
+apt install rsync -y
+
 source /root/.bashrc
 
 
