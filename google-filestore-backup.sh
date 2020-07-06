@@ -26,6 +26,11 @@ mount $FILESTORE_IP_SECONDARY:/$FILESHARE_NAME_SECONDARY /mnt/$FILESHARE_MOUNT_S
 
 rsync -avz /mnt/$FILESHARE_MOUNT_PRIMARY/ /mnt/$FILESHARE_MOUNT_SECONDARY/
 
+#sleep for few minutes
+
+sleep 120
+
+
 #stop the VM
 
 poweroff
