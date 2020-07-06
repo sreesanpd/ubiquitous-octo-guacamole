@@ -28,7 +28,7 @@ rsync -avz /mnt/$FILESHARE_MOUNT_PRIMARY/ /mnt/$FILESHARE_MOUNT_SECONDARY/
 
 #sleep for few minutes
 
-sleep 120
+sleep 300
 
 
 #stop the VM
