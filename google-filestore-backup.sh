@@ -1,11 +1,8 @@
-#/bin/bash
 
-# Create the GCloud Authentication file if set
-if [ ! -z "$GCP_GCLOUD_AUTH" ]
-then
-    echo "$GCP_GCLOUD_AUTH" | base64 --decode > "$HOME"/gcloud.json
-    gcloud auth activate-service-account --key-file=$HOME/gcloud.json
-fi
+
+#install nfs-common
+
+apt install nfs-common -y
 
 
 #backup filestore to GCS
