@@ -4,6 +4,8 @@
 
 apt install nfs-common -y
 
+source /root/.bashrc
+
 
 #backup filestore to GCS
 
