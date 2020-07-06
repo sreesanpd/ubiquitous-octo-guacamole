@@ -1,4 +1,4 @@
-
+#/bin/bash
 
 #install nfs-common
 
